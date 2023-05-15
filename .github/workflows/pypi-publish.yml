@@ -2,7 +2,7 @@ name: PyPI Publish
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build-and-deploy:
