@@ -1,24 +1,17 @@
 from setuptools import setup, find_packages
  
-classifiers = [
-  'Development Status :: 5 - Production/Stable',
-  'Intended Audience :: Education',
-  'Operating System :: Microsoft :: Windows :: Windows 10',
-  'License :: OSI Approved :: MIT License',
-  'Programming Language :: Python :: 3'
-]
- 
+long_description = 'This library was made to help Data Engineer that uses Pyspark data frames. Using functions to compare, test and check data.'
+
 setup(
   name='pyspark_supp',
   version='0.0.1',
   description='Data Engineer Support PySpark Library',
-  long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
-  url='',  
+  long_description=long_description,
+  url='https://github.com/joaocaemerer/pyspark-supp',
   author='Fernando Caemerer',
   author_email='fernando.caemerer@gmail.com',
-  license='MIT', 
-  classifiers=classifiers,
+  license='MIT',
   keywords=['dataengineer', 'pyspark', 'dataframe'], 
   packages=find_packages(),
-  install_requires=['pyspark'] 
+  install_requires=['pyspark']
 )
