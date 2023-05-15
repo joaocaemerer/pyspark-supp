@@ -12,7 +12,7 @@ classifiers = [
  
 setup(
   name='pyspark_supp',
-  version='0.0.1',
+  version='0.1.0',
   description='Data Engineer Support PySpark Library',
   long_description=long_description,
   url='https://github.com/joaocaemerer/pyspark-supp',
